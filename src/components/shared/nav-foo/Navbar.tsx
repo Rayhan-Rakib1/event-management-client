@@ -7,9 +7,9 @@ import { getCookie } from "@/services/auth/tokenHandlers";
 
 const PublicNavbar = async () => {
   const navItems = [
-    { href: "#", label: "Consultation" },
-    { href: "#", label: "Health Plans" },
-    { href: "#", label: "Medicine" },
+    { href: "/aboutUs", label: "About us" },
+    { href: "/contactUs", label: "Contact us" },
+    { href: "/faq", label: "FAQ" },
     { href: "#", label: "Diagnostics" },
     { href: "#", label: "NGOs" },
   ];
